@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  background-color: rgba(132, 132, 132, 0.3);
+  border: transparent;
+  cursor: pointer;
+}
+
+table {
+  gap: 0;
+}
+th,
+td {
+  padding: 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
