@@ -27,9 +27,15 @@ button {
   cursor: pointer;
 }
 
+input {
+  margin-top: 15px;
+  height: 40px;
+}
+
 table {
   gap: 0;
 }
+
 th,
 td {
   padding: 10px 20px;
