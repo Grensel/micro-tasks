@@ -1,9 +1,8 @@
-import React from "react";
 import { render } from "@testing-library/react";
-import App from "./AssociativeArray";
+import { AssociativeArray } from "./AssociativeArray";
 
 test("renders learn react link", () => {
-  const { getByText } = render(<App />);
+  const { getByText } = render(<AssociativeArray />);
   const linkElement = getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });

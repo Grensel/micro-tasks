@@ -24,12 +24,12 @@ ul {
 button {
   background-color: rgba(132, 132, 132, 0.3);
   border: transparent;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 input {
-  margin-top: 15px;
-  height: 40px;
+  height: 20px;
 }
 
 table {
@@ -40,4 +40,30 @@ th,
 td {
   padding: 10px 20px;
   border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: lightgreen;
+}
+
+.is-done {
+  opacity: 0.5;
+}
+
+.AssociativeArray {
+  display: flex;
+  gap: 20px;
+}
+.todolist {
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  border-radius: 15px;
 }

@@ -1,9 +1,9 @@
 import "./App.css";
+import { AssociativeArray } from "./components/AssociativeArray/AssociativeArray";
 import { MicroTask1 } from "./components/microTask1/MicroTask1";
 import { MicroTask2 } from "./components/microTask2/MicroTask2";
-import AssociativeArray from "./components/src/AssociativeArray";
 
-function App() {
+export const App = () => {
   return (
     <>
       <h1>Micro Tasks, Home Work</h1>
@@ -18,6 +18,4 @@ function App() {
       </div>
     </>
   );
-}
-
-export default App;
+};
